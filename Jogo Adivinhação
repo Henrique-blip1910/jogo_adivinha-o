@@ -1,0 +1,6 @@
+n = 0
+tentativa = 0
+while n != 18:
+    n = int(input("Tente adivinhar em que núemero estou pensando: "))
+    tentativa += 1
+print(f"Parábens você adivinhou em {tentativa} tentativas.")
